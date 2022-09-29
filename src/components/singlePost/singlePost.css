@@ -1,0 +1,54 @@
+.singlePost {
+    flex: 9;
+}
+.sPWrapper {
+    padding: 20px;
+    padding-right: 0;
+}
+.sPImg {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.sPTitle {
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+    font-family: "Lora", sans-serif;
+}
+.sPEdit {
+    float: right;
+    font-size: 20px;
+}
+.sPIcon {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.sPIcon:first-child {
+    color: teal;
+}
+.sPIcon:last-child {
+    color: tomato;
+}
+.sPInfo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #be9656;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+.sPAuthor{
+    margin-left: 5px;
+}
+.sPDescription {
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+.sPDescription::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}

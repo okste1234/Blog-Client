@@ -1,0 +1,58 @@
+.signup {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(253, 230, 230, 0.5),
+        rgba(155, 152, 152, 0.5)
+        ),
+        url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+}
+.sTitle {
+    font-size: 50px;
+}
+.sForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.sForm > label {
+    margin: 10px 0;
+}
+.sInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+.sInput:focus {
+    outline: none;
+}
+.sBtn {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(37, 95, 95);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+.sLoginBtn {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: crimson;
+    padding: 8px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+.sLoginBtn:hover {
+    cursor: pointer;
+    transform: translateY(3px);
+    transition: .4s;
+}
